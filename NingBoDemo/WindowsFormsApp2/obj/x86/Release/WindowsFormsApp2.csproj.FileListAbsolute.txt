@@ -1,0 +1,13 @@
+D:\twoxzi\RecvFiles\东胜宁波\NingBoDemo\WindowsFormsApp2\bin\x86\Release\MasterCom.dll
+D:\twoxzi\RecvFiles\东胜宁波\NingBoDemo\WindowsFormsApp2\bin\x86\Release\MasterRD.dll
+D:\twoxzi\RecvFiles\东胜宁波\NingBoDemo\WindowsFormsApp2\bin\x86\Release\nbsbRF.dll
+D:\twoxzi\RecvFiles\东胜宁波\NingBoDemo\WindowsFormsApp2\bin\x86\Release\WindowsFormsApp2.exe.config
+D:\twoxzi\RecvFiles\东胜宁波\NingBoDemo\WindowsFormsApp2\bin\x86\Release\WindowsFormsApp2.exe
+D:\twoxzi\RecvFiles\东胜宁波\NingBoDemo\WindowsFormsApp2\bin\x86\Release\WindowsFormsApp2.pdb
+D:\twoxzi\RecvFiles\东胜宁波\NingBoDemo\WindowsFormsApp2\obj\x86\Release\WindowsFormsApp2.csprojAssemblyReference.cache
+D:\twoxzi\RecvFiles\东胜宁波\NingBoDemo\WindowsFormsApp2\obj\x86\Release\WindowsFormsApp2.Form1.resources
+D:\twoxzi\RecvFiles\东胜宁波\NingBoDemo\WindowsFormsApp2\obj\x86\Release\WindowsFormsApp2.Properties.Resources.resources
+D:\twoxzi\RecvFiles\东胜宁波\NingBoDemo\WindowsFormsApp2\obj\x86\Release\WindowsFormsApp2.csproj.GenerateResource.cache
+D:\twoxzi\RecvFiles\东胜宁波\NingBoDemo\WindowsFormsApp2\obj\x86\Release\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+D:\twoxzi\RecvFiles\东胜宁波\NingBoDemo\WindowsFormsApp2\obj\x86\Release\WindowsFormsApp2.exe
+D:\twoxzi\RecvFiles\东胜宁波\NingBoDemo\WindowsFormsApp2\obj\x86\Release\WindowsFormsApp2.pdb

@@ -1,0 +1,49 @@
+long tt
+string rfromid, userid,meterdate
+long cardtype,cardflag,buycount,reed,valve,flash, battery,warn,overdraft,limit
+double salemoney,totalusage,leftmoney
+rfromid=space(17)
+meterdate=space(17)
+int i
+double price[]
+long stepp[]
+for i=1 to 2 
+	stepp[i]=0
+next
+for i=1 to 3
+	price[i]=0.00
+next
+ 
+tt=ReadCard( port1,rfromid, userid, cardtype, cardflag,price,stepp, warn, overdraft, limit,salemoney, buycount&
+          ,totalusage,leftmoney, reed, valve, flash, battery, meterdate)
+
+mle_1.text=""
+if tt=121 then
+	mle_1.text=mle_1.text+""
+	messagebox("提式","非本系统卡!")  
+	return
+end if
+mle_1.text=mle_1.text+"卡号："+string(rfromid)+"~r~n"
+
+choose case cardtype
+case 5 
+	mle_1.text=mle_1.text+"卡类型：参数卡~r~n"
+	mle_1.text=mle_1.text+"屯粮："+string(limit)+"~r~n"	
+	mle_1.text=mle_1.text+"透支："+string(overdraft)+"~r~n"
+	mle_1.text=mle_1.text+"告警："+string(warn)+"~r~n"	
+	mle_1.text=mle_1.text+"使用期限："+string(meterdate)+"~r~n"	
+	
+case 6//大写
+	mle_1.text=mle_1.text+"卡类型：价格卡~r~n"
+	mle_1.text=mle_1.text+"单价1："+string(price[1],"###,##0.00")+"~r~n"	
+	mle_1.text=mle_1.text+"单价2："+string(price[2],"###,##0.00")+"~r~n"	
+	mle_1.text=mle_1.text+"单价3："+string(price[3],"###,##0.00")+"~r~n"	
+	mle_1.text=mle_1.text+"阶梯1："+string(stepp[1])+"~r~n"	
+	mle_1.text=mle_1.text+"阶梯2："+string(stepp[2])+"~r~n"	
+	mle_1.text=mle_1.text+"使用期限："+string(meterdate)+"~r~n"	
+	
+case else
+		mle_1.text=mle_1.text+"卡类型：其他卡~r~n"
+end choose
+
+
